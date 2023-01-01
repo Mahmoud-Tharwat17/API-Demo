@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.733" tests="8" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Statsbomb\IdeaProjects\API Demo\target\test-classes;C:\Users\Statsbomb\IdeaProjects\API Demo\target\classes;C:\Users\Statsbomb\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Statsbomb\.m2\repository\io\qameta\allure\allure-testng\2.20.1\allure-testng-2.20.1.jar;C:\Users\Statsbomb\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\Statsbomb\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;C:\Users\Statsbomb\.m2\repository\io\qameta\allure\allure-test-filter\2.20.1\allure-test-filter-2.20.1.jar;C:\Users\Statsbomb\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Statsbomb\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Statsbomb\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Statsbomb\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Statsbomb\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Statsbomb\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Statsbomb\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Statsbomb\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Statsbomb\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Statsbomb\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Statsbomb\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Statsbomb\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Statsbomb\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Statsbomb\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Statsbomb\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Statsbomb\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Statsbomb\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Statsbomb\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Statsbomb\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Statsbomb\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\Statsbomb\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Statsbomb\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Statsbomb\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\Statsbomb\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\Statsbomb\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\Statsbomb\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\Statsbomb\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Statsbomb\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Statsbomb\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Statsbomb\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Statsbomb\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Statsbomb\AppData\Local\Temp\surefire4467049768497132391\surefirebooter-20221226182920938_3.jar C:\Users\Statsbomb\AppData\Local\Temp\surefire4467049768497132391 2022-12-26T18-29-20_689-jvmRun1 surefire-20221226182920938_1tmp surefire_0-20221226182920938_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Statsbomb\IdeaProjects\API Demo\target\test-classes;C:\Users\Statsbomb\IdeaProjects\API Demo\target\classes;C:\Users\Statsbomb\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Statsbomb\.m2\repository\io\qameta\allure\allure-testng\2.20.1\allure-testng-2.20.1.jar;C:\Users\Statsbomb\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\Statsbomb\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;C:\Users\Statsbomb\.m2\repository\io\qameta\allure\allure-test-filter\2.20.1\allure-test-filter-2.20.1.jar;C:\Users\Statsbomb\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Statsbomb\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Statsbomb\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Statsbomb\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Statsbomb\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Statsbomb\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Statsbomb\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Statsbomb\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Statsbomb\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Statsbomb\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Statsbomb\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Statsbomb\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Statsbomb\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Statsbomb\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Statsbomb\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Statsbomb\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Statsbomb\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Statsbomb\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Statsbomb\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Statsbomb\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\Statsbomb\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Statsbomb\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Statsbomb\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\Statsbomb\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\Statsbomb\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\Statsbomb\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\Statsbomb\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Statsbomb\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Statsbomb\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Statsbomb\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Statsbomb\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Statsbomb"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Statsbomb\IdeaProjects\API Demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Statsbomb\AppData\Local\Temp\surefire4467049768497132391\surefirebooter-20221226182920938_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="Mahmoud.Tharwat"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Statsbomb\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\STATSB~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Users\Statsbomb\IdeaProjects\API Demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env" value="production"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Statsbomb\.nvm\versions\node\v14.18.1\bin;C:\Users\Statsbomb\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Statsbomb\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\Tailscale IPN;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Amazon\AWSCLIV2;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\allure-2.20.1\bin;C:\Users\Statsbomb\AppData\Local\Microsoft\WindowsApps;C:\Users\Statsbomb\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Statsbomb\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="should_be_able_to_register" classname="com.qacart.todo.testcases.User_Test" time="3.232">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Tasia",
+    "lastName": "O'Hara",
+    "email": "carolina.kiehn@hotmail.com",
+    "password": "123456"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Clay",
+    "lastName": "Smith",
+    "email": "arletha.bernhard@hotmail.com",
+    "password": "123456"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Lawrence",
+    "lastName": "Homenick",
+    "email": "rosetta.crist@yahoo.com",
+    "password": "123456"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Graham",
+    "lastName": "Walker",
+    "email": "kisha.beier@yahoo.com",
+    "password": "123456"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Tana",
+    "lastName": "Dickinson",
+    "email": "sharri.graham@gmail.com",
+    "password": "123456"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Harland",
+    "lastName": "McGlynn",
+    "email": "genevive.hintz@gmail.com",
+    "password": "123456"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Otto",
+    "lastName": "Raynor",
+    "email": "cory.ohara@hotmail.com",
+    "password": "123456"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Garrett",
+    "lastName": "Rath",
+    "email": "clarence.harvey@hotmail.com",
+    "password": "123456"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJiNCIsImZpcnN0TmFtZSI6IkdhcnJldHQiLCJsYXN0TmFtZSI6IlJhdGgiLCJpYXQiOjE2NzIwNzIxNjR9.vSXr1HTQW4xkfo9XLgedqPWpdH44nlADoOqvAyv2fFI; Path=/
+Set-Cookie: userID=j%3A%2263a9cbe456c5280016990bb4%22; Path=/
+Set-Cookie: firstName=Garrett; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 278
+Etag: W/"116-WZUSlSQyRc4j+1DUhUbB6XIhR6E"
+Date: Mon, 26 Dec 2022 16:29:24 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJiNCIsImZpcnN0TmFtZSI6IkdhcnJldHQiLCJsYXN0TmFtZSI6IlJhdGgiLCJpYXQiOjE2NzIwNzIxNjR9.vSXr1HTQW4xkfo9XLgedqPWpdH44nlADoOqvAyv2fFI",
+    "userID": "63a9cbe456c5280016990bb4",
+    "firstName": "Garrett"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="should_no_be_able_to_register_with_same_email" classname="com.qacart.todo.testcases.User_Test" time="4.026">
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 53
+Etag: W/"35-dsxV0+vy1L0TgNQY0Spaqv/j9fw"
+Date: Mon, 26 Dec 2022 16:29:25 GMT
+Via: 1.1 vegur
+
+{
+    "message": "Email is already exists in the Database"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="UserShouldNotbeAbleToLogin" classname="com.qacart.todo.testcases.User_Test" time="4.243">
+    <system-out><![CDATA[HTTP/1.1 401 Unauthorized
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 105
+Etag: W/"69-+ROAeTYdLtKREH6azCyNv++b54o"
+Date: Mon, 26 Dec 2022 16:29:25 GMT
+Via: 1.1 vegur
+
+{
+    "message": "The email and password combination is not correct, please fill a correct email and password"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="UserShouldbeAbleToLogin" classname="com.qacart.todo.testcases.User_Test" time="4.248">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJjMSIsImZpcnN0TmFtZSI6IkhhcmxhbmQiLCJsYXN0TmFtZSI6Ik1jR2x5bm4iLCJpYXQiOjE2NzIwNzIxNjV9.Rn3UHd0zKG832iKqNhH7tXVl-hhHKN6TfuNKGB9QLKI; Path=/
+Set-Cookie: userID=j%3A%2263a9cbe456c5280016990bc1%22; Path=/
+Set-Cookie: firstName=Harland; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 282
+Etag: W/"11a-o2g0k2CpAwZE3QZ6/H51zwf6Z8o"
+Date: Mon, 26 Dec 2022 16:29:25 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJjMSIsImZpcnN0TmFtZSI6IkhhcmxhbmQiLCJsYXN0TmFtZSI6Ik1jR2x5bm4iLCJpYXQiOjE2NzIwNzIxNjV9.Rn3UHd0zKG832iKqNhH7tXVl-hhHKN6TfuNKGB9QLKI",
+    "userID": "63a9cbe456c5280016990bc1",
+    "firstName": "Harland"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="UserShouldBeAbleToGetTaskByID" classname="com.qacart.todo.testcases.Todo_Test" time="3.843">
+    <failure message="accessToken cannot be null" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: accessToken cannot be null
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.AuthenticationSpecificationImpl.oauth2(AuthenticationSpecificationImpl.groovy:158)
+	at io.restassured.specification.AuthenticationSpecification$oauth2$2.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:194)
+	at io.restassured.internal.AuthenticationSpecificationImpl.oauth2(AuthenticationSpecificationImpl.groovy:151)
+	at com.qacart.todo.UserApi.TodoApi.AddTask(TodoApi.java:15)
+	at com.qacart.todo.steps.TodoSteps.getTodoID(TodoSteps.java:20)
+	at com.qacart.todo.testcases.Todo_Test.UserShouldBeAbleToGetTaskByID(Todo_Test.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJiZiIsImZpcnN0TmFtZSI6IlRhbmEiLCJsYXN0TmFtZSI6IkRpY2tpbnNvbiIsImlhdCI6MTY3MjA3MjE2NX0.mHesFC7N1bcG2H02Tc_CUlIpxeFdw1S3Zm8AablDkgo; Path=/
+Set-Cookie: userID=j%3A%2263a9cbe456c5280016990bbf%22; Path=/
+Set-Cookie: firstName=Tana; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 278
+Etag: W/"116-QbBbyBMnxM/8hklw59kxldBhKV0"
+Date: Mon, 26 Dec 2022 16:29:25 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJiZiIsImZpcnN0TmFtZSI6IlRhbmEiLCJsYXN0TmFtZSI6IkRpY2tpbnNvbiIsImlhdCI6MTY3MjA3MjE2NX0.mHesFC7N1bcG2H02Tc_CUlIpxeFdw1S3Zm8AablDkgo",
+    "userID": "63a9cbe456c5280016990bbf",
+    "firstName": "Tana"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJiZCIsImZpcnN0TmFtZSI6IkNsYXkiLCJsYXN0TmFtZSI6IlNtaXRoIiwiaWF0IjoxNjcyMDcyMTY1fQ.EzBI5RihSfUSNbEyGr2nP-nzshctIv4Y5gxIg6yA7Co; Path=/
+Set-Cookie: userID=j%3A%2263a9cbe456c5280016990bbd%22; Path=/
+Set-Cookie: firstName=Clay; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 273
+Etag: W/"111-T0OOHW2TzwzjGFlwret1AZWOKBM"
+Date: Mon, 26 Dec 2022 16:29:25 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJiZCIsImZpcnN0TmFtZSI6IkNsYXkiLCJsYXN0TmFtZSI6IlNtaXRoIiwiaWF0IjoxNjcyMDcyMTY1fQ.EzBI5RihSfUSNbEyGr2nP-nzshctIv4Y5gxIg6yA7Co",
+    "userID": "63a9cbe456c5280016990bbd",
+    "firstName": "Clay"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJiNyIsImZpcnN0TmFtZSI6Ikxhd3JlbmNlIiwibGFzdE5hbWUiOiJIb21lbmljayIsImlhdCI6MTY3MjA3MjE2NX0.NrhvXEbp7Ncesrr5l_UeJX86UKT9QpPOt9cGb6PzsAc; Path=/
+Set-Cookie: userID=j%3A%2263a9cbe456c5280016990bb7%22; Path=/
+Set-Cookie: firstName=Lawrence; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 286
+Etag: W/"11e-eHdyv4i6slHzPwWFi4snZx2v/BE"
+Date: Mon, 26 Dec 2022 16:29:25 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJiNyIsImZpcnN0TmFtZSI6Ikxhd3JlbmNlIiwibGFzdE5hbWUiOiJIb21lbmljayIsImlhdCI6MTY3MjA3MjE2NX0.NrhvXEbp7Ncesrr5l_UeJX86UKT9QpPOt9cGb6PzsAc",
+    "userID": "63a9cbe456c5280016990bb7",
+    "firstName": "Lawrence"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJjMSIsImZpcnN0TmFtZSI6IkhhcmxhbmQiLCJsYXN0TmFtZSI6Ik1jR2x5bm4iLCJpYXQiOjE2NzIwNzIxNjV9.Rn3UHd0zKG832iKqNhH7tXVl-hhHKN6TfuNKGB9QLKI; Path=/
+Set-Cookie: userID=j%3A%2263a9cbe456c5280016990bc1%22; Path=/
+Set-Cookie: firstName=Harland; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 282
+Etag: W/"11a-o2g0k2CpAwZE3QZ6/H51zwf6Z8o"
+Date: Mon, 26 Dec 2022 16:29:25 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJjMSIsImZpcnN0TmFtZSI6IkhhcmxhbmQiLCJsYXN0TmFtZSI6Ik1jR2x5bm4iLCJpYXQiOjE2NzIwNzIxNjV9.Rn3UHd0zKG832iKqNhH7tXVl-hhHKN6TfuNKGB9QLKI",
+    "userID": "63a9cbe456c5280016990bc1",
+    "firstName": "Harland"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJiOSIsImZpcnN0TmFtZSI6IlRhc2lhIiwibGFzdE5hbWUiOiJPJ0hhcmEiLCJpYXQiOjE2NzIwNzIxNjV9.QjWmSvP_z5afX-0T0Ibu_TdvOeE3rqAlwehRanoAi-g; Path=/
+Set-Cookie: userID=j%3A%2263a9cbe456c5280016990bb9%22; Path=/
+Set-Cookie: firstName=Tasia; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 276
+Etag: W/"114-MN7wGweMCIP72ahXvlocWnllZNo"
+Date: Mon, 26 Dec 2022 16:29:25 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJiOSIsImZpcnN0TmFtZSI6IlRhc2lhIiwibGFzdE5hbWUiOiJPJ0hhcmEiLCJpYXQiOjE2NzIwNzIxNjV9.QjWmSvP_z5afX-0T0Ibu_TdvOeE3rqAlwehRanoAi-g",
+    "userID": "63a9cbe456c5280016990bb9",
+    "firstName": "Tasia"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJiYiIsImZpcnN0TmFtZSI6Ik90dG8iLCJsYXN0TmFtZSI6IlJheW5vciIsImlhdCI6MTY3MjA3MjE2NX0.rEe3Bif9W6Z26brD1_96UdWBMO5wNdIjowbLIzBpo0Y; Path=/
+Set-Cookie: userID=j%3A%2263a9cbe456c5280016990bbb%22; Path=/
+Set-Cookie: firstName=Otto; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 274
+Etag: W/"112-qi5o+5hzDC9+4aF/g9AhgNF25s0"
+Date: Mon, 26 Dec 2022 16:29:25 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU0NTZjNTI4MDAxNjk5MGJiYiIsImZpcnN0TmFtZSI6Ik90dG8iLCJsYXN0TmFtZSI6IlJheW5vciIsImlhdCI6MTY3MjA3MjE2NX0.rEe3Bif9W6Z26brD1_96UdWBMO5wNdIjowbLIzBpo0Y",
+    "userID": "63a9cbe456c5280016990bbb",
+    "firstName": "Otto"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "genevive.hintz@gmail.com",
+    "password": "123456"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Tasia",
+    "lastName": "O'Hara",
+    "email": "carolina.kiehn@hotmail.com",
+    "password": "123456"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU1NTZjNTI4MDAxNjk5MGJjMyIsImZpcnN0TmFtZSI6IkdyYWhhbSIsImxhc3ROYW1lIjoiV2Fsa2VyIiwiaWF0IjoxNjcyMDcyMTY1fQ.QY7wsRDZ5JmN_v55OeCs1rbwB7Ac7YM-knjXw33f4nc; Path=/
+Set-Cookie: userID=j%3A%2263a9cbe556c5280016990bc3%22; Path=/
+Set-Cookie: firstName=Graham; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 279
+Etag: W/"117-veSsfUAmba1IMe4MMzwsBWmWmf4"
+Date: Mon, 26 Dec 2022 16:29:25 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTljYmU1NTZjNTI4MDAxNjk5MGJjMyIsImZpcnN0TmFtZSI6IkdyYWhhbSIsImxhc3ROYW1lIjoiV2Fsa2VyIiwiaWF0IjoxNjcyMDcyMTY1fQ.QY7wsRDZ5JmN_v55OeCs1rbwB7Ac7YM-knjXw33f4nc",
+    "userID": "63a9cbe556c5280016990bc3",
+    "firstName": "Graham"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "kisha.beier@yahoo.com",
+    "password": "Wrongpassword"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="UserShouldBeAbleToAddTask" classname="com.qacart.todo.testcases.Todo_Test" time="3.843">
+    <failure message="accessToken cannot be null" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: accessToken cannot be null
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.AuthenticationSpecificationImpl.oauth2(AuthenticationSpecificationImpl.groovy:158)
+	at io.restassured.specification.AuthenticationSpecification$oauth2$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:194)
+	at io.restassured.internal.AuthenticationSpecificationImpl.oauth2(AuthenticationSpecificationImpl.groovy:151)
+	at com.qacart.todo.UserApi.TodoApi.AddTask(TodoApi.java:15)
+	at com.qacart.todo.testcases.Todo_Test.UserShouldBeAbleToAddTask(Todo_Test.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+  </testcase>
+  <testcase name="UserShouldNotBeAbleToAddTask" classname="com.qacart.todo.testcases.Todo_Test" time="3.844">
+    <failure message="accessToken cannot be null" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: accessToken cannot be null
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.AuthenticationSpecificationImpl.oauth2(AuthenticationSpecificationImpl.groovy:158)
+	at io.restassured.specification.AuthenticationSpecification$oauth2.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:194)
+	at io.restassured.internal.AuthenticationSpecificationImpl.oauth2(AuthenticationSpecificationImpl.groovy:151)
+	at com.qacart.todo.UserApi.TodoApi.AddTask(TodoApi.java:15)
+	at com.qacart.todo.testcases.Todo_Test.UserShouldNotBeAbleToAddTask(Todo_Test.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+  </testcase>
+  <testcase name="UserShouldBeAbleToDeleteTaskById" classname="com.qacart.todo.testcases.Todo_Test" time="3.844">
+    <failure message="accessToken cannot be null" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: accessToken cannot be null
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.AuthenticationSpecificationImpl.oauth2(AuthenticationSpecificationImpl.groovy:158)
+	at io.restassured.specification.AuthenticationSpecification$oauth2$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:194)
+	at io.restassured.internal.AuthenticationSpecificationImpl.oauth2(AuthenticationSpecificationImpl.groovy:151)
+	at com.qacart.todo.UserApi.TodoApi.AddTask(TodoApi.java:15)
+	at com.qacart.todo.steps.TodoSteps.getTodoID(TodoSteps.java:20)
+	at com.qacart.todo.testcases.Todo_Test.UserShouldBeAbleToDeleteTaskById(Todo_Test.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+  </testcase>
+</testsuite>
