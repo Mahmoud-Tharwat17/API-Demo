@@ -14,7 +14,7 @@ import static org.hamcrest.Matchers.not;
 
 @Feature("User Test cases Class")
 public class User_Test {
-    // update first 3 cases and made the last one as is to check difference
+    
     @Story("User Should be able to register")
     @Test (description = "User Should be able to register")
     public void should_be_able_to_register() {

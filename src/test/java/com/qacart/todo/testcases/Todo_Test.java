@@ -66,9 +66,9 @@ public class Todo_Test {
 
        Response response =  TodoApi.deleteTodo(TodoID,Token);
 
-                assertThat(response.statusCode(),equalTo(200));
-                assertThat(response.path("item"),equalTo(todo.getItem()));
-                assertThat(response.path("isCompleted"),equalTo(false));
+       assertThat(response.statusCode(),equalTo(200));
+       assertThat(response.path("item"),equalTo(todo.getItem()));
+       assertThat(response.path("isCompleted"),equalTo(false));
 
     }
 }
